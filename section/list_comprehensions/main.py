@@ -8,7 +8,7 @@ travel_wishlist = [['Paris', 'France', 2000],['Tokyo', 'Japan', 3000],['New York
                    ['Athens', 'Greece', 1850]]
                    
 # Create a new list of affordable cities
-affordable_cities =[city[0] for city in travel_wishlist if city[2] > 2500]
+affordable_cities =[city[0] for city in travel_wishlist if city[2] < 2500]
 
 # Testing
 print('Affordable Cities:', affordable_cities)
